@@ -10,7 +10,7 @@ namespace AlgorithmCodeKata {
 
     // N의 범위 : 100,000,000 이하의 자연수
 
-    internal class _013 {
+    internal class _013_AddDigits {
         public int solution(int n) {
             int answer = 0;
             int temp = n;
