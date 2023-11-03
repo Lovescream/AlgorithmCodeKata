@@ -9,7 +9,7 @@ namespace AlgorithmCodeKata {
     // num은 int 범위의 정수입니다.
     // 0은 짝수입니다.
 
-    internal class EvenOdd {
+    internal class _011_EvenOdd {
         public string solution(int num) {
             string answer = num % 2 == 0 ? "Even" : "Odd";
             return answer;
