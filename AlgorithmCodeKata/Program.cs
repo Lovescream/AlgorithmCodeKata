@@ -2,8 +2,8 @@
     internal class Program {
         static void Main(string[] args) {
             Console.WriteLine("Hello, World!");
-            _023_Collatz collatz = new();
-            collatz.solution(626331);
+            _029_RemoveMin a = new();
+            a.solution(new int[] { 6, 5, 7, 2, 9 });
         }
     }
 }
