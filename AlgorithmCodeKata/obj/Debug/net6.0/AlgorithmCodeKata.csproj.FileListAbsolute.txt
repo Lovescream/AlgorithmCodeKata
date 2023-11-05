@@ -1,0 +1,14 @@
+C:\Project\C#\AlgorithmCodeKata\AlgorithmCodeKata\bin\Debug\net6.0\AlgorithmCodeKata.exe
+C:\Project\C#\AlgorithmCodeKata\AlgorithmCodeKata\bin\Debug\net6.0\AlgorithmCodeKata.deps.json
+C:\Project\C#\AlgorithmCodeKata\AlgorithmCodeKata\bin\Debug\net6.0\AlgorithmCodeKata.runtimeconfig.json
+C:\Project\C#\AlgorithmCodeKata\AlgorithmCodeKata\bin\Debug\net6.0\AlgorithmCodeKata.dll
+C:\Project\C#\AlgorithmCodeKata\AlgorithmCodeKata\bin\Debug\net6.0\AlgorithmCodeKata.pdb
+C:\Project\C#\AlgorithmCodeKata\AlgorithmCodeKata\obj\Debug\net6.0\AlgorithmCodeKata.GeneratedMSBuildEditorConfig.editorconfig
+C:\Project\C#\AlgorithmCodeKata\AlgorithmCodeKata\obj\Debug\net6.0\AlgorithmCodeKata.AssemblyInfoInputs.cache
+C:\Project\C#\AlgorithmCodeKata\AlgorithmCodeKata\obj\Debug\net6.0\AlgorithmCodeKata.AssemblyInfo.cs
+C:\Project\C#\AlgorithmCodeKata\AlgorithmCodeKata\obj\Debug\net6.0\AlgorithmCodeKata.csproj.CoreCompileInputs.cache
+C:\Project\C#\AlgorithmCodeKata\AlgorithmCodeKata\obj\Debug\net6.0\AlgorithmCodeKata.dll
+C:\Project\C#\AlgorithmCodeKata\AlgorithmCodeKata\obj\Debug\net6.0\refint\AlgorithmCodeKata.dll
+C:\Project\C#\AlgorithmCodeKata\AlgorithmCodeKata\obj\Debug\net6.0\AlgorithmCodeKata.pdb
+C:\Project\C#\AlgorithmCodeKata\AlgorithmCodeKata\obj\Debug\net6.0\AlgorithmCodeKata.genruntimeconfig.cache
+C:\Project\C#\AlgorithmCodeKata\AlgorithmCodeKata\obj\Debug\net6.0\ref\AlgorithmCodeKata.dll
