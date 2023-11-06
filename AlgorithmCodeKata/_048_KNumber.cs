@@ -20,8 +20,13 @@ namespace AlgorithmCodeKata {
     // commands의 각 원소는 길이가 3입니다.
 
     internal class _048_KNumber {
-        public string[] solution(string[] strings, int n) {
-            return strings.OrderBy(x => x[n]).ThenBy(x => x).ToArray();
+        public int[] solution(int[] array, int[,] commands) {
+            int[] answer = new int[commands.GetLength(0)];
+            for (int i = 0; i < commands.GetLength(0); i++) {
+                int number = array.Skip(commands[i, 0] - 1).Take(commands[i, 1] - commands[i, 0] + 1).OrderBy(x => x).ElementAt(commands[i, 2] - 1);
+                answer[i] = number;
+            }
+            return answer;
         }
     }
 }
