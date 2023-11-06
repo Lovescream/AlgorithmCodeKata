@@ -2,8 +2,8 @@
     internal class Program {
         static void Main(string[] args) {
             Console.WriteLine("Hello, World!");
-            _034_StringDescending a = new();
-            a.solution("sadsafqkASDSADop");
+            _035_ShortFall a = new();
+            Console.WriteLine(a.solution(2500, 2500));
         }
     }
 }
