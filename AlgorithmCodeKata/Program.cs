@@ -1,9 +1,12 @@
 ﻿namespace AlgorithmCodeKata {
-    internal class Program {
+    public class Program {
         static void Main(string[] args) {
-            _052_Coke coke = new _052_Coke();
-            int total = coke.solution(2, 1, 20);
-            Console.WriteLine(total);
+            _053_HallOfFrame a = new();
+            a.solution(3, new int[] {10, 100, 20, 150, 1, 100, 200});
+        }
+        
+        public static void PrintArray(int[] array) {
+            Console.WriteLine(string.Join(',', array));
         }
     }
 }
