@@ -1,8 +1,9 @@
 ﻿namespace AlgorithmCodeKata {
     internal class Program {
         static void Main(string[] args) {
-            string s = new _051_FoodFight().solution(new int[] { 1, 3, 4, 6 });
-            Console.WriteLine(s);
+            _052_Coke coke = new _052_Coke();
+            int total = coke.solution(2, 1, 20);
+            Console.WriteLine(total);
         }
     }
 }

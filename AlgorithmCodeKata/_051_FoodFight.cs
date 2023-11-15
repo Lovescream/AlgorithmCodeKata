@@ -42,7 +42,6 @@ namespace AlgorithmCodeKata {
             for (int i = half.Length - 1; i >= 0; i--) {
                 answer += half[i];
             }
-
             return answer;
         }
     }
