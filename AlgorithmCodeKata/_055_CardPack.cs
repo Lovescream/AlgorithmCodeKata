@@ -32,7 +32,7 @@ namespace AlgorithmCodeKata {
     // goal의 원소는 cards1과 cards2의 원소들로만 이루어져 있습니다.
     // cards1, cards2, goal의 문자열들은 모두 알파벳 소문자로만 이루어져 있습니다.
 
-    public class _55_CardPack {
+    public class _055_CardPack {
         public string solution(string[] cards1, string[] cards2, string[] goal) {
             int index1 = 0, index2 = 0;
             for (int i = 0; i < goal.Length; i++) {
