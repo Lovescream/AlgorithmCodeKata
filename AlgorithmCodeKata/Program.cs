@@ -1,10 +1,20 @@
 ﻿namespace AlgorithmCodeKata {
     public class Program {
         static void Main(string[] args) {
-            _053_HallOfFrame a = new();
-            a.solution(3, new int[] {10, 100, 20, 150, 1, 100, 200});
+            _55_CardPack _55_CardPack = new _55_CardPack();
+            Console.WriteLine(_55_CardPack.solution(
+                new string[] { "i", "drink", "water" },
+                new string[] { "want", "to" },
+                new string[] { "i", "want", "to", "drink", "water" }
+                ));
+            Console.WriteLine(_55_CardPack.solution(
+                            new string[] { "i", "water", "drink" },
+                            new string[] { "want", "to" },
+                            new string[] { "i", "want", "to", "drink", "water" }
+                            ));
+
         }
-        
+
         public static void PrintArray(int[] array) {
             Console.WriteLine(string.Join(',', array));
         }
