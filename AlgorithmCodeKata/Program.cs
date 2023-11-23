@@ -1,17 +1,9 @@
 ﻿namespace AlgorithmCodeKata {
     public class Program {
         static void Main(string[] args) {
-            _55_CardPack _55_CardPack = new _55_CardPack();
-            Console.WriteLine(_55_CardPack.solution(
-                new string[] { "i", "drink", "water" },
-                new string[] { "want", "to" },
-                new string[] { "i", "want", "to", "drink", "water" }
-                ));
-            Console.WriteLine(_55_CardPack.solution(
-                            new string[] { "i", "water", "drink" },
-                            new string[] { "want", "to" },
-                            new string[] { "i", "want", "to", "drink", "water" }
-                            ));
+            _056_Fruiterer fruiterer = new _056_Fruiterer();
+            Console.WriteLine(fruiterer.solution(3, 4, new int[] { 1, 2, 3, 1, 2, 3, 1 }));
+            Console.WriteLine(fruiterer.solution(4, 3, new int[] { 4, 1, 2, 2, 4, 4, 4, 4, 1, 2, 4, 2 }));
 
         }
 
