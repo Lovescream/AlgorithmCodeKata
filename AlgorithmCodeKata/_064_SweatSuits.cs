@@ -36,5 +36,4 @@ namespace AlgorithmCodeKata {
             return n - newLost.Count;
         }
     }
-    }
 }
