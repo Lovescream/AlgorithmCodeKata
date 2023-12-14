@@ -21,7 +21,7 @@ namespace AlgorithmCodeKata {
     // 여벌 체육복이 있는 학생만 다른 학생에게 체육복을 빌려줄 수 있습니다.
     // 여벌 체육복을 가져온 학생이 체육복을 도난당했을 수 있습니다.
     // 이때 이 학생은 체육복을 하나만 도난당했다고 가정하며, 남은 체육복이 하나이기에 다른 학생에게는 체육복을 빌려줄 수 없습니다.
-    internal class _064_SweatSuits {
+    internal class _064_SweatSuits : KataBase {
         public int solution(int n, int[] lost, int[] reserve) {
             List<int> newReserve = reserve.Except(lost).OrderBy(x => x).ToList();
             List<int> newLost = lost.Except(reserve).OrderBy(x => x).ToList();
@@ -34,6 +34,14 @@ namespace AlgorithmCodeKata {
             }
 
             return n - newLost.Count;
+        }
+
+        public override void Example() {
+            int n = 5;
+            int[] lost = { 1, 3, 5 };
+            int[] reserve = { 2, 4 };
+            var result = solution(n, lost, reserve);
+            Console.WriteLine($"결과: {result}");
         }
     }
 }
