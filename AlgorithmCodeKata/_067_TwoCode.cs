@@ -23,15 +23,13 @@ namespace AlgorithmCodeKata {
     public class _067_TwoCode : KataBase {
         // a: 97
         // z: 122
-        public class Solution {
-            public string solution(string s, string skip, int index) => new string(s.Select(x => {
-                for (int i = 0; i < index; i++) {
-                    if (++x == 123) x = 'a';
-                    if (skip.Contains(x)) i--;
-                }
-                return x;
-            }).ToArray());
-        }
+        public string solution(string s, string skip, int index) => new string(s.Select(x => {
+            for (int i = 0; i < index; i++) {
+                if (++x == 123) x = 'a';
+                if (skip.Contains(x)) i--;
+            }
+            return x;
+        }).ToArray());
 
         public override void Example() {
             string s = "ybcde";
